@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
                 tv1.setText(String.valueOf(var3));
                 var=var3;
                 var3=0;
-
+                flag=0;
 
 
 
@@ -224,7 +224,7 @@ public class MainActivity extends AppCompatActivity {
                     default: var=0;}
                 if (flag==0||(c=='='&&var==0))
                 {
-                    var=var1;
+                    var=var+var1;
                 }
                 flag++;
                 c='+';
